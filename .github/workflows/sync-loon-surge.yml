@@ -17,15 +17,26 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Sync Loon and Surge only
+      - name: Sync blackmatrix7 Loon and Surge to rule/
         run: |
-          git clone --depth 1 --filter=blob:none --sparse https://github.com/blackmatrix7/ios_rule_script.git /tmp/upstream
-          cd /tmp/upstream && git sparse-checkout set rule/Loon rule/Surge
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/blackmatrix7/ios_rule_script.git /tmp/upstream1
+          cd /tmp/upstream1 && git sparse-checkout set rule/Loon rule/Surge
           cd $GITHUB_WORKSPACE
           mkdir -p rule
-          rsync -a --delete /tmp/upstream/rule/Loon/ rule/Loon/
-          rsync -a --delete /tmp/upstream/rule/Surge/ rule/Surge/
+          rsync -a --delete /tmp/upstream1/rule/Loon/ rule/Loon/
+          rsync -a --delete /tmp/upstream1/rule/Surge/ rule/Surge/
           rm -rf rule/Clash rule/QuantumultX rule/Shadowrocket rule/AdGuard rewrite script icon external source blank
+
+      - name: Sync QuixoticHeart loon surge egern to rule-set/
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse --branch ruleset https://github.com/QuixoticHeart/rule-set.git /tmp/upstream2
+          cd /tmp/upstream2 && git sparse-checkout set loon surge egern
+          cd $GITHUB_WORKSPACE
+          mkdir -p rule-set
+          rsync -a --delete /tmp/upstream2/loon/ rule-set/loon/
+          rsync -a --delete /tmp/upstream2/surge/ rule-set/surge/
+          rsync -a --delete /tmp/upstream2/egern/ rule-set/egern/
+          rm -rf rule-set/meta rule-set/quantumultx rule-set/shadowrocket rule-set/singbox rule-set/stash
 
       - name: Commit and push
         run: |
@@ -35,6 +46,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: sync Loon & Surge rules $(date -u +%F)"
+            git commit -m "chore: sync rules $(date -u +%F)"
             git push
           fi
