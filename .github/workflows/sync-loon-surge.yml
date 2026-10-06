@@ -3,6 +3,7 @@ name: Daily Sync Loon Surge Only
 on:
   schedule:
     - cron: '15 2 * * *'
+    - cron: '45 3 * * *'
   workflow_dispatch:
 
 permissions:
