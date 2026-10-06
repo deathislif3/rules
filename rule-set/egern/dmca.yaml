@@ -14,6 +14,7 @@ domain_set:
 - aegir.sexy
 - alltorrents.net
 - announce.partis.si
+- archive.torrentonline.cc
 - banananetwork.qzz.io
 - bandito.byterunner.io
 - big-boss-tracker.net
@@ -70,7 +71,6 @@ domain_set:
 - pirate.t-1.org
 - proaudiotorrents.org
 - public.demonoid.ch
-- pybittrack.retiolus.net
 - rekcart.duckdns.org
 - retracker.ip.ncnet.ru
 - retracker.lanta.me
@@ -102,7 +102,6 @@ domain_set:
 - tracker-zhuqiy.dgj055.icu
 - tracker.0x7c0.com
 - tracker.1h.is
-- tracker.23794.top
 - tracker.alaskantf.com
 - tracker.anima.nz
 - tracker.anirena.com
@@ -124,7 +123,6 @@ domain_set:
 - tracker.expli.top
 - tracker.fansub.id
 - tracker.fatkhoala.org
-- tracker.flatuslifir.is
 - tracker.frozen-layer.com
 - tracker.gcrenwp.top
 - tracker.gcrreen.xyz
@@ -177,6 +175,7 @@ domain_set:
 - tracker.xfapi.top
 - tracker.xiaoduola.xyz
 - tracker.yemekyedim.com
+- tracker.zhuqiy.com
 - tracker.zond.org
 - tracker.zupix.online
 - tracker1.ctix.cn
@@ -262,7 +261,6 @@ domain_suffix_set:
 - announce.torrentsmd.com.php
 - anthelion.me
 - api.bitumconference.ru
-- archive.torrentonline.cc
 - aruacfilmes.com.br
 - asiancinema.me
 - asnet.pw
@@ -672,6 +670,7 @@ domain_suffix_set:
 - pubt.in
 - pubt.net
 - pussytorrents.org
+- pybittrack.retiolus.net
 - qbittorrent.org
 - qg.lorzl.gq
 - qingwa.pro
@@ -802,9 +801,9 @@ domain_suffix_set:
 - totheglory.im
 - tp.m-team.cc.php
 - tr.abiir.top
+- tr.abir.ga
 - tr.back.re
 - tr.bangumi.moe
-- tr.btube3.com
 - tr.burnabyhighstar.com
 - tr.cili001.com
 - tr.fuuko.net
@@ -825,6 +824,7 @@ domain_suffix_set:
 - tracker.0o.is
 - tracker.0x.tf
 - tracker.1337x.org
+- tracker.23794.top
 - tracker.36dm.com
 - tracker.7471.top
 - tracker.acg.gg
@@ -862,6 +862,7 @@ domain_suffix_set:
 - tracker.btsync.gq
 - tracker.btsync.tk
 - tracker.btzoo.eu
+- tracker.bug38.com
 - tracker.bz
 - tracker.calculate.ru
 - tracker.ccc.de
@@ -903,6 +904,7 @@ domain_suffix_set:
 - tracker.filetracker.pl
 - tracker.fixr.pro
 - tracker.flashtorrents.org
+- tracker.flatuslifir.is
 - tracker.fnix.net
 - tracker.foreverpirates.co
 - tracker.fortu.io
@@ -1026,7 +1028,6 @@ domain_suffix_set:
 - tracker.torrentfrancais.com
 - tracker.torrentleech.org
 - tracker.torrentparty.com
-- tracker.torrents.observer
 - tracker.torrentsnows.com
 - tracker.torrenty.org
 - tracker.torrentyorg.pl
@@ -1060,7 +1061,6 @@ domain_suffix_set:
 - tracker.yume-hatsuyuki.moe
 - tracker.zemoj.com
 - tracker.zerobytes.xyz
-- tracker.zhuqiy.com
 - tracker.zhuqiy.dgj055.icu
 - tracker.zooki.xyz
 - tracker.zum.bi
@@ -1381,6 +1381,7 @@ ip_cidr_set:
 - 93.92.64.5/32
 - 94.228.192.98/32
 - 94.23.183.33/32
+- 94.23.207.177/32
 - 95.107.48.115/32
 - 95.211.168.204/32
 - 95.211.37.230/32
