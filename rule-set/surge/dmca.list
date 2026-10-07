@@ -11,8 +11,8 @@ DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
 DOMAIN,academic-p2p.appspot.com
 DOMAIN,aegir.sexy
 DOMAIN,alltorrents.net
+DOMAIN,anime-tracker.aruku.kro.kr
 DOMAIN,announce.partis.si
-DOMAIN,archive.torrentonline.cc
 DOMAIN,banananetwork.qzz.io
 DOMAIN,bandito.byterunner.io
 DOMAIN,big-boss-tracker.net
@@ -173,7 +173,6 @@ DOMAIN,tracker.vraphim.com
 DOMAIN,tracker.xfapi.top
 DOMAIN,tracker.xiaoduola.xyz
 DOMAIN,tracker.yemekyedim.com
-DOMAIN,tracker.zhuqiy.com
 DOMAIN,tracker.zond.org
 DOMAIN,tracker.zupix.online
 DOMAIN,tracker1.ctix.cn
@@ -190,7 +189,6 @@ DOMAIN,udp.tracker.projectk.org
 DOMAIN,v6.vito-tracker.space
 DOMAIN,wepzone.net
 DOMAIN,wg.mortis.me
-DOMAIN,whybother.torrentonline.cc
 DOMAIN,ws.peer.ooo
 DOMAIN,xbtrutor.com
 DOMAIN,xtremewrestlingtorrents.net
@@ -248,7 +246,6 @@ DOMAIN-SUFFIX,alpha.torrenttracker.nl
 DOMAIN-SUFFIX,alpharatio.cc
 DOMAIN-SUFFIX,amigacity.xyz
 DOMAIN-SUFFIX,anidex.moe
-DOMAIN-SUFFIX,anime-tracker.aruku.kro.kr
 DOMAIN-SUFFIX,animebytes.tv
 DOMAIN-SUFFIX,animetorrents.me
 DOMAIN-SUFFIX,anisaishuu.de
@@ -258,8 +255,10 @@ DOMAIN-SUFFIX,announce.sktorrent.eu
 DOMAIN-SUFFIX,announce.torrentsmd.com.php
 DOMAIN-SUFFIX,anthelion.me
 DOMAIN-SUFFIX,api.bitumconference.ru
+DOMAIN-SUFFIX,archive.torrentonline.cc
 DOMAIN-SUFFIX,aruacfilmes.com.br
 DOMAIN-SUFFIX,asiancinema.me
+DOMAIN-SUFFIX,asiatorrent.giize.com
 DOMAIN-SUFFIX,asnet.pw
 DOMAIN-SUFFIX,atrack-asia-s1.114913.xyz
 DOMAIN-SUFFIX,audiences.me
@@ -296,6 +295,7 @@ DOMAIN-SUFFIX,bms-hosxp.com
 DOMAIN-SUFFIX,bobbialbano.com
 DOMAIN-SUFFIX,breakbttext.xyz
 DOMAIN-SUFFIX,broadcasthe.net
+DOMAIN-SUFFIX,bt-tracker.de
 DOMAIN-SUFFIX,bt-tracker.gamexp.ru
 DOMAIN-SUFFIX,bt.3dmgame.com
 DOMAIN-SUFFIX,bt.ali213.net
@@ -481,6 +481,7 @@ DOMAIN-SUFFIX,hitpt.com
 DOMAIN-SUFFIX,hitpt.org
 DOMAIN-SUFFIX,hk1.opentracker.ga
 DOMAIN-SUFFIX,home.penza.com.ru
+DOMAIN-SUFFIX,ht.therarbg.to
 DOMAIN-SUFFIX,hub.bugout.link
 DOMAIN-SUFFIX,hudbt.hust.edu.cn
 DOMAIN-SUFFIX,ianon.app
@@ -812,7 +813,6 @@ DOMAIN-SUFFIX,tr.steins-gate.moe
 DOMAIN-SUFFIX,tr.torland.ga
 DOMAIN-SUFFIX,tr.zhina.org
 DOMAIN-SUFFIX,tr2.ysagin.top
-DOMAIN-SUFFIX,tr3.ysagin.top
 DOMAIN-SUFFIX,tr4ck3r.duckdns.org
 DOMAIN-SUFFIX,tracker-2.msm8916.com
 DOMAIN-SUFFIX,tracker-de.ololosh.space
@@ -1025,6 +1025,7 @@ DOMAIN-SUFFIX,tracker.torrentbay.to
 DOMAIN-SUFFIX,tracker.torrentfrancais.com
 DOMAIN-SUFFIX,tracker.torrentleech.org
 DOMAIN-SUFFIX,tracker.torrentparty.com
+DOMAIN-SUFFIX,tracker.torrents.observer
 DOMAIN-SUFFIX,tracker.torrentsnows.com
 DOMAIN-SUFFIX,tracker.torrenty.org
 DOMAIN-SUFFIX,tracker.torrentyorg.pl
@@ -1058,6 +1059,7 @@ DOMAIN-SUFFIX,tracker.yoshi210.com
 DOMAIN-SUFFIX,tracker.yume-hatsuyuki.moe
 DOMAIN-SUFFIX,tracker.zemoj.com
 DOMAIN-SUFFIX,tracker.zerobytes.xyz
+DOMAIN-SUFFIX,tracker.zhuqiy.com
 DOMAIN-SUFFIX,tracker.zhuqiy.dgj055.icu
 DOMAIN-SUFFIX,tracker.zooki.xyz
 DOMAIN-SUFFIX,tracker.zum.bi
@@ -1127,6 +1129,7 @@ DOMAIN-SUFFIX,wareztorrent.com
 DOMAIN-SUFFIX,wassermann.online
 DOMAIN-SUFFIX,web4.obit.ru
 DOMAIN-SUFFIX,wegkxfcivgx.chickenkiller.com
+DOMAIN-SUFFIX,whybother.torrentonline.cc
 DOMAIN-SUFFIX,wintersakura.net
 DOMAIN-SUFFIX,worldboxingvideoarchive.com
 DOMAIN-SUFFIX,xauat6.edu.cn
@@ -1376,7 +1379,6 @@ IP-CIDR,93.158.213.92/32,no-resolve
 IP-CIDR,93.92.64.5/32,no-resolve
 IP-CIDR,94.228.192.98/32,no-resolve
 IP-CIDR,94.23.183.33/32,no-resolve
-IP-CIDR,94.23.207.177/32,no-resolve
 IP-CIDR,95.107.48.115/32,no-resolve
 IP-CIDR,95.211.168.204/32,no-resolve
 IP-CIDR,95.211.37.230/32,no-resolve

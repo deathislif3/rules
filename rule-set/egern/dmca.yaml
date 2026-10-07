@@ -13,8 +13,8 @@ domain_set:
 - academic-p2p.appspot.com
 - aegir.sexy
 - alltorrents.net
+- anime-tracker.aruku.kro.kr
 - announce.partis.si
-- archive.torrentonline.cc
 - banananetwork.qzz.io
 - bandito.byterunner.io
 - big-boss-tracker.net
@@ -175,7 +175,6 @@ domain_set:
 - tracker.xfapi.top
 - tracker.xiaoduola.xyz
 - tracker.yemekyedim.com
-- tracker.zhuqiy.com
 - tracker.zond.org
 - tracker.zupix.online
 - tracker1.ctix.cn
@@ -192,7 +191,6 @@ domain_set:
 - v6.vito-tracker.space
 - wepzone.net
 - wg.mortis.me
-- whybother.torrentonline.cc
 - ws.peer.ooo
 - xbtrutor.com
 - xtremewrestlingtorrents.net
@@ -251,7 +249,6 @@ domain_suffix_set:
 - alpharatio.cc
 - amigacity.xyz
 - anidex.moe
-- anime-tracker.aruku.kro.kr
 - animebytes.tv
 - animetorrents.me
 - anisaishuu.de
@@ -261,8 +258,10 @@ domain_suffix_set:
 - announce.torrentsmd.com.php
 - anthelion.me
 - api.bitumconference.ru
+- archive.torrentonline.cc
 - aruacfilmes.com.br
 - asiancinema.me
+- asiatorrent.giize.com
 - asnet.pw
 - atrack-asia-s1.114913.xyz
 - audiences.me
@@ -299,6 +298,7 @@ domain_suffix_set:
 - bobbialbano.com
 - breakbttext.xyz
 - broadcasthe.net
+- bt-tracker.de
 - bt-tracker.gamexp.ru
 - bt.3dmgame.com
 - bt.ali213.net
@@ -484,6 +484,7 @@ domain_suffix_set:
 - hitpt.org
 - hk1.opentracker.ga
 - home.penza.com.ru
+- ht.therarbg.to
 - hub.bugout.link
 - hudbt.hust.edu.cn
 - ianon.app
@@ -815,7 +816,6 @@ domain_suffix_set:
 - tr.torland.ga
 - tr.zhina.org
 - tr2.ysagin.top
-- tr3.ysagin.top
 - tr4ck3r.duckdns.org
 - tracker-2.msm8916.com
 - tracker-de.ololosh.space
@@ -1028,6 +1028,7 @@ domain_suffix_set:
 - tracker.torrentfrancais.com
 - tracker.torrentleech.org
 - tracker.torrentparty.com
+- tracker.torrents.observer
 - tracker.torrentsnows.com
 - tracker.torrenty.org
 - tracker.torrentyorg.pl
@@ -1061,6 +1062,7 @@ domain_suffix_set:
 - tracker.yume-hatsuyuki.moe
 - tracker.zemoj.com
 - tracker.zerobytes.xyz
+- tracker.zhuqiy.com
 - tracker.zhuqiy.dgj055.icu
 - tracker.zooki.xyz
 - tracker.zum.bi
@@ -1130,6 +1132,7 @@ domain_suffix_set:
 - wassermann.online
 - web4.obit.ru
 - wegkxfcivgx.chickenkiller.com
+- whybother.torrentonline.cc
 - wintersakura.net
 - worldboxingvideoarchive.com
 - xauat6.edu.cn
@@ -1381,7 +1384,6 @@ ip_cidr_set:
 - 93.92.64.5/32
 - 94.228.192.98/32
 - 94.23.183.33/32
-- 94.23.207.177/32
 - 95.107.48.115/32
 - 95.211.168.204/32
 - 95.211.37.230/32
