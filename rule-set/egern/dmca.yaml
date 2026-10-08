@@ -15,6 +15,7 @@ domain_set:
 - alltorrents.net
 - anime-tracker.aruku.kro.kr
 - announce.partis.si
+- archive.torrentonline.cc
 - banananetwork.qzz.io
 - bandito.byterunner.io
 - big-boss-tracker.net
@@ -175,6 +176,7 @@ domain_set:
 - tracker.xfapi.top
 - tracker.xiaoduola.xyz
 - tracker.yemekyedim.com
+- tracker.zhuqiy.com
 - tracker.zond.org
 - tracker.zupix.online
 - tracker1.ctix.cn
@@ -191,6 +193,7 @@ domain_set:
 - v6.vito-tracker.space
 - wepzone.net
 - wg.mortis.me
+- whybother.torrentonline.cc
 - ws.peer.ooo
 - xbtrutor.com
 - xtremewrestlingtorrents.net
@@ -258,7 +261,6 @@ domain_suffix_set:
 - announce.torrentsmd.com.php
 - anthelion.me
 - api.bitumconference.ru
-- archive.torrentonline.cc
 - aruacfilmes.com.br
 - asiancinema.me
 - asiatorrent.giize.com
@@ -484,7 +486,6 @@ domain_suffix_set:
 - hitpt.org
 - hk1.opentracker.ga
 - home.penza.com.ru
-- ht.therarbg.to
 - hub.bugout.link
 - hudbt.hust.edu.cn
 - ianon.app
@@ -816,6 +817,7 @@ domain_suffix_set:
 - tr.torland.ga
 - tr.zhina.org
 - tr2.ysagin.top
+- tr3.ysagin.top
 - tr4ck3r.duckdns.org
 - tracker-2.msm8916.com
 - tracker-de.ololosh.space
@@ -1062,7 +1064,6 @@ domain_suffix_set:
 - tracker.yume-hatsuyuki.moe
 - tracker.zemoj.com
 - tracker.zerobytes.xyz
-- tracker.zhuqiy.com
 - tracker.zhuqiy.dgj055.icu
 - tracker.zooki.xyz
 - tracker.zum.bi
@@ -1132,7 +1133,6 @@ domain_suffix_set:
 - wassermann.online
 - web4.obit.ru
 - wegkxfcivgx.chickenkiller.com
-- whybother.torrentonline.cc
 - wintersakura.net
 - worldboxingvideoarchive.com
 - xauat6.edu.cn

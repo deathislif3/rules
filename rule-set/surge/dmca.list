@@ -13,6 +13,7 @@ DOMAIN,aegir.sexy
 DOMAIN,alltorrents.net
 DOMAIN,anime-tracker.aruku.kro.kr
 DOMAIN,announce.partis.si
+DOMAIN,archive.torrentonline.cc
 DOMAIN,banananetwork.qzz.io
 DOMAIN,bandito.byterunner.io
 DOMAIN,big-boss-tracker.net
@@ -173,6 +174,7 @@ DOMAIN,tracker.vraphim.com
 DOMAIN,tracker.xfapi.top
 DOMAIN,tracker.xiaoduola.xyz
 DOMAIN,tracker.yemekyedim.com
+DOMAIN,tracker.zhuqiy.com
 DOMAIN,tracker.zond.org
 DOMAIN,tracker.zupix.online
 DOMAIN,tracker1.ctix.cn
@@ -189,6 +191,7 @@ DOMAIN,udp.tracker.projectk.org
 DOMAIN,v6.vito-tracker.space
 DOMAIN,wepzone.net
 DOMAIN,wg.mortis.me
+DOMAIN,whybother.torrentonline.cc
 DOMAIN,ws.peer.ooo
 DOMAIN,xbtrutor.com
 DOMAIN,xtremewrestlingtorrents.net
@@ -255,7 +258,6 @@ DOMAIN-SUFFIX,announce.sktorrent.eu
 DOMAIN-SUFFIX,announce.torrentsmd.com.php
 DOMAIN-SUFFIX,anthelion.me
 DOMAIN-SUFFIX,api.bitumconference.ru
-DOMAIN-SUFFIX,archive.torrentonline.cc
 DOMAIN-SUFFIX,aruacfilmes.com.br
 DOMAIN-SUFFIX,asiancinema.me
 DOMAIN-SUFFIX,asiatorrent.giize.com
@@ -481,7 +483,6 @@ DOMAIN-SUFFIX,hitpt.com
 DOMAIN-SUFFIX,hitpt.org
 DOMAIN-SUFFIX,hk1.opentracker.ga
 DOMAIN-SUFFIX,home.penza.com.ru
-DOMAIN-SUFFIX,ht.therarbg.to
 DOMAIN-SUFFIX,hub.bugout.link
 DOMAIN-SUFFIX,hudbt.hust.edu.cn
 DOMAIN-SUFFIX,ianon.app
@@ -813,6 +814,7 @@ DOMAIN-SUFFIX,tr.steins-gate.moe
 DOMAIN-SUFFIX,tr.torland.ga
 DOMAIN-SUFFIX,tr.zhina.org
 DOMAIN-SUFFIX,tr2.ysagin.top
+DOMAIN-SUFFIX,tr3.ysagin.top
 DOMAIN-SUFFIX,tr4ck3r.duckdns.org
 DOMAIN-SUFFIX,tracker-2.msm8916.com
 DOMAIN-SUFFIX,tracker-de.ololosh.space
@@ -1059,7 +1061,6 @@ DOMAIN-SUFFIX,tracker.yoshi210.com
 DOMAIN-SUFFIX,tracker.yume-hatsuyuki.moe
 DOMAIN-SUFFIX,tracker.zemoj.com
 DOMAIN-SUFFIX,tracker.zerobytes.xyz
-DOMAIN-SUFFIX,tracker.zhuqiy.com
 DOMAIN-SUFFIX,tracker.zhuqiy.dgj055.icu
 DOMAIN-SUFFIX,tracker.zooki.xyz
 DOMAIN-SUFFIX,tracker.zum.bi
@@ -1129,7 +1130,6 @@ DOMAIN-SUFFIX,wareztorrent.com
 DOMAIN-SUFFIX,wassermann.online
 DOMAIN-SUFFIX,web4.obit.ru
 DOMAIN-SUFFIX,wegkxfcivgx.chickenkiller.com
-DOMAIN-SUFFIX,whybother.torrentonline.cc
 DOMAIN-SUFFIX,wintersakura.net
 DOMAIN-SUFFIX,worldboxingvideoarchive.com
 DOMAIN-SUFFIX,xauat6.edu.cn
