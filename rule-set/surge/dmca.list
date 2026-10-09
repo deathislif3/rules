@@ -70,6 +70,7 @@ DOMAIN,peertube.cpy.re
 DOMAIN,pirate.t-1.org
 DOMAIN,proaudiotorrents.org
 DOMAIN,public.demonoid.ch
+DOMAIN,pybittrack.retiolus.net
 DOMAIN,rekcart.duckdns.org
 DOMAIN,retracker.ip.ncnet.ru
 DOMAIN,retracker.lanta.me
@@ -101,6 +102,7 @@ DOMAIN,tr.zukizuki.org
 DOMAIN,tracker-zhuqiy.dgj055.icu
 DOMAIN,tracker.0x7c0.com
 DOMAIN,tracker.1h.is
+DOMAIN,tracker.23794.top
 DOMAIN,tracker.alaskantf.com
 DOMAIN,tracker.anima.nz
 DOMAIN,tracker.anirena.com
@@ -122,6 +124,7 @@ DOMAIN,tracker.enitin.xyz
 DOMAIN,tracker.expli.top
 DOMAIN,tracker.fansub.id
 DOMAIN,tracker.fatkhoala.org
+DOMAIN,tracker.flatuslifir.is
 DOMAIN,tracker.frozen-layer.com
 DOMAIN,tracker.gcrenwp.top
 DOMAIN,tracker.gcrreen.xyz
@@ -169,12 +172,12 @@ DOMAIN,tracker.torrentbytes.net
 DOMAIN,tracker.torrust-demo.com
 DOMAIN,tracker.trancetraffic.com
 DOMAIN,tracker.tritan.gg
+DOMAIN,tracker.tryhackx.org
 DOMAIN,tracker.uraniumhexafluori.de
 DOMAIN,tracker.vraphim.com
 DOMAIN,tracker.xfapi.top
 DOMAIN,tracker.xiaoduola.xyz
 DOMAIN,tracker.yemekyedim.com
-DOMAIN,tracker.zhuqiy.com
 DOMAIN,tracker.zond.org
 DOMAIN,tracker.zupix.online
 DOMAIN,tracker1.ctix.cn
@@ -260,7 +263,6 @@ DOMAIN-SUFFIX,anthelion.me
 DOMAIN-SUFFIX,api.bitumconference.ru
 DOMAIN-SUFFIX,aruacfilmes.com.br
 DOMAIN-SUFFIX,asiancinema.me
-DOMAIN-SUFFIX,asiatorrent.giize.com
 DOMAIN-SUFFIX,asnet.pw
 DOMAIN-SUFFIX,atrack-asia-s1.114913.xyz
 DOMAIN-SUFFIX,audiences.me
@@ -402,7 +404,6 @@ DOMAIN-SUFFIX,drumkitx.com
 DOMAIN-SUFFIX,dxdhd.com
 DOMAIN-SUFFIX,eastgame.org
 DOMAIN-SUFFIX,eddie4.nl
-DOMAIN-SUFFIX,edgev.duckdns.org
 DOMAIN-SUFFIX,edu.uifr.ru
 DOMAIN-SUFFIX,eliastre100.fr
 DOMAIN-SUFFIX,elitezones.ro
@@ -483,6 +484,7 @@ DOMAIN-SUFFIX,hitpt.com
 DOMAIN-SUFFIX,hitpt.org
 DOMAIN-SUFFIX,hk1.opentracker.ga
 DOMAIN-SUFFIX,home.penza.com.ru
+DOMAIN-SUFFIX,ht.therarbg.to
 DOMAIN-SUFFIX,hub.bugout.link
 DOMAIN-SUFFIX,hudbt.hust.edu.cn
 DOMAIN-SUFFIX,ianon.app
@@ -669,7 +671,6 @@ DOMAIN-SUFFIX,publictracker.xyz
 DOMAIN-SUFFIX,pubt.in
 DOMAIN-SUFFIX,pubt.net
 DOMAIN-SUFFIX,pussytorrents.org
-DOMAIN-SUFFIX,pybittrack.retiolus.net
 DOMAIN-SUFFIX,qbittorrent.org
 DOMAIN-SUFFIX,qg.lorzl.gq
 DOMAIN-SUFFIX,qingwa.pro
@@ -800,9 +801,9 @@ DOMAIN-SUFFIX,torrenttracker.nwc.acsalaska.net
 DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,tp.m-team.cc.php
 DOMAIN-SUFFIX,tr.abiir.top
-DOMAIN-SUFFIX,tr.abir.ga
 DOMAIN-SUFFIX,tr.back.re
 DOMAIN-SUFFIX,tr.bangumi.moe
+DOMAIN-SUFFIX,tr.btube3.com
 DOMAIN-SUFFIX,tr.burnabyhighstar.com
 DOMAIN-SUFFIX,tr.cili001.com
 DOMAIN-SUFFIX,tr.fuuko.net
@@ -823,7 +824,6 @@ DOMAIN-SUFFIX,tracker-v6.zooki.xyz
 DOMAIN-SUFFIX,tracker.0o.is
 DOMAIN-SUFFIX,tracker.0x.tf
 DOMAIN-SUFFIX,tracker.1337x.org
-DOMAIN-SUFFIX,tracker.23794.top
 DOMAIN-SUFFIX,tracker.36dm.com
 DOMAIN-SUFFIX,tracker.7471.top
 DOMAIN-SUFFIX,tracker.acg.gg
@@ -861,7 +861,6 @@ DOMAIN-SUFFIX,tracker.btsync.cf
 DOMAIN-SUFFIX,tracker.btsync.gq
 DOMAIN-SUFFIX,tracker.btsync.tk
 DOMAIN-SUFFIX,tracker.btzoo.eu
-DOMAIN-SUFFIX,tracker.bug38.com
 DOMAIN-SUFFIX,tracker.bz
 DOMAIN-SUFFIX,tracker.calculate.ru
 DOMAIN-SUFFIX,tracker.ccc.de
@@ -903,7 +902,6 @@ DOMAIN-SUFFIX,tracker.files.fm
 DOMAIN-SUFFIX,tracker.filetracker.pl
 DOMAIN-SUFFIX,tracker.fixr.pro
 DOMAIN-SUFFIX,tracker.flashtorrents.org
-DOMAIN-SUFFIX,tracker.flatuslifir.is
 DOMAIN-SUFFIX,tracker.fnix.net
 DOMAIN-SUFFIX,tracker.foreverpirates.co
 DOMAIN-SUFFIX,tracker.fortu.io
@@ -1035,7 +1033,6 @@ DOMAIN-SUFFIX,tracker.trackerfix.com
 DOMAIN-SUFFIX,tracker.trackerlist.org
 DOMAIN-SUFFIX,tracker.trackton.ga
 DOMAIN-SUFFIX,tracker.tricitytorrents.com
-DOMAIN-SUFFIX,tracker.tryhackx.org
 DOMAIN-SUFFIX,tracker.tvunderground.org.ru
 DOMAIN-SUFFIX,tracker.uw0.xyz
 DOMAIN-SUFFIX,tracker.v6speed.org
@@ -1061,6 +1058,7 @@ DOMAIN-SUFFIX,tracker.yoshi210.com
 DOMAIN-SUFFIX,tracker.yume-hatsuyuki.moe
 DOMAIN-SUFFIX,tracker.zemoj.com
 DOMAIN-SUFFIX,tracker.zerobytes.xyz
+DOMAIN-SUFFIX,tracker.zhuqiy.com
 DOMAIN-SUFFIX,tracker.zhuqiy.dgj055.icu
 DOMAIN-SUFFIX,tracker.zooki.xyz
 DOMAIN-SUFFIX,tracker.zum.bi
