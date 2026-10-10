@@ -16,7 +16,7 @@
 - [CertGuard.mobileconfig](https://cdn.jsdelivr.net/gh/deathislif3/rules@main/profiles/CertGuard.mobileconfig)：系统级屏蔽苹果证书验证域名，不开代理软件也生效
 
 **自用配置（config/）**
-- [Loon.lcf](https://raw.githubusercontent.com/deathislif3/rules/main/config/Loon.lcf)：本人自用配置，订阅地址与 MITM 证书已替换为占位符，换成自己的就能用
+- [Loon.lcf](https://raw.githubusercontent.com/deathislif3/rules/main/config/Loon.lcf)：本人的自用配置，敏感信息已剔除，仅作留存
 
 ## 自动同步
 
