@@ -59,7 +59,6 @@ Twitter = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiw
 YouTube = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 BiliBili = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
 DouYin = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
-HuYa = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AbemaTV.png
 NetEaseMusic = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
 MANUAL = select,全球节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
 United States = url-test,美国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
