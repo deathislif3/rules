@@ -5,18 +5,18 @@
 ## 内容
 
 **规则镜像**
-- `rule/Loon/`、`rule/Surge/`：同步自 blackmatrix7/ios_rule_script
-- `rule-set/`：loon、surge、egern 三份，同步自 QuixoticHeart/rule-set
+- [`rule/Loon/`](https://github.com/deathislif3/rules/tree/main/rule/Loon)、[`rule/Surge/`](https://github.com/deathislif3/rules/tree/main/rule/Surge)：同步自 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
+- [`rule-set/`](https://github.com/deathislif3/rules/tree/main/rule-set)：loon、surge、egern 三份，同步自 [QuixoticHeart/rule-set](https://github.com/QuixoticHeart/rule-set)
 
 **插件（modules/）**
-- CertGuard：屏蔽苹果证书吊销验证域名，防 P12 侧载应用掉签
-- LocalDevVPN：为本机开发工具提供 10.7.0.1 回环
+- [CertGuard](https://raw.githubusercontent.com/deathislif3/rules/main/modules/CertGuard.plugin)：屏蔽苹果证书吊销验证域名，防 P12 侧载应用掉签
+- [LocalDevVPN](https://raw.githubusercontent.com/deathislif3/rules/main/modules/LocalDeviceLoopback.lpx)：为本机开发工具提供 10.7.0.1 回环
 
 **描述文件（profiles/）**
-- CertGuard.mobileconfig：系统级屏蔽苹果证书验证域名，不开代理软件也生效
+- [CertGuard.mobileconfig](https://cdn.jsdelivr.net/gh/deathislif3/rules@main/profiles/CertGuard.mobileconfig)：系统级屏蔽苹果证书验证域名，不开代理软件也生效
 
 **公开配置（config/）**
-- Loon.lcf：Loon 通用配置，订阅地址与 MITM 证书已替换为占位符，换成自己的就能用
+- [Loon.lcf](https://raw.githubusercontent.com/deathislif3/rules/main/config/Loon.lcf)：通用配置，订阅地址与 MITM 证书已替换为占位符，换成自己的就能用
 
 ## 自动同步
 
