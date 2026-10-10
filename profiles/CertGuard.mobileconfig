@@ -20,8 +20,6 @@
 					<string>certs.apple.com</string>
 					<string>appattest.apple.com</string>
 					<string>vpp.itunes.apple.com</string>
-					<string>crl.entrust.net</string>
-					<string>ocsp.entrust.net</string>
 				</array>
 			</dict>
 			<key>OnDemandRules</key>
@@ -40,7 +38,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>0F2D5962-1D94-4402-B90C-206DE7721ECC</string>
+			<string>2914A000-B7E9-4655-9B39-037CED100624</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -56,7 +54,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>F28656C7-C559-4541-AD3F-B95476915A61</string>
+	<string>1A8B6B66-8136-4C1F-94C3-ED9495D26627</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
