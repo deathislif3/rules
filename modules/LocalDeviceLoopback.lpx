@@ -2,6 +2,7 @@
 #!desc=为本机开发工具提供 LocalDevVPN 的 IPv4 回环机制：将发往 10.7.0.1 的数据包收进 TUN，交换源、目的 IP 后交回本机协议栈，不进入常规规则、不走代理、不转发出网。本插件会关闭整个 TUN 的 IPv6 VIF，适用于只识别无 IPv6 地址 utun 接口的工具。本机服务仍需实际监听；插件不会创建服务或将目标地址映射为 127.0.0.1。需要 Loon Build 1007+。
 #!author=deathislif3
 #!homepage=https://github.com/deathislif3
+#!icon=https://raw.githubusercontent.com/deathislif3/rules/main/modules/icons/LocalDeviceLoopback.png
 #!loon_version=3.5.3(1007)
 #!date=2026-10-10
 #!system=iOS,iPadOS,tvOS,macOS
