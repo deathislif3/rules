@@ -43,7 +43,7 @@ MTF = https://example.com/替换为你的MTF订阅链接,udp=true,block-quic=tru
 台湾节点 = NameRegex, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
 
 [Proxy Group]
-PROXY = select,DIRECT,MTF,AWS,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+PROXY = select,DIRECT,MANUAL,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
 AI = select,DIRECT,MTF,AWS,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
 Apple = select,DIRECT,MTF,AWS,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/App_Store.png
 Discord = select,DIRECT,MTF,AWS,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
