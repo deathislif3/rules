@@ -8,7 +8,7 @@
 
 #!icon = https://raw.githubusercontent.com/deathislif3/rules/main/modules/icons/LocalDeviceLoopback.png?v=2
 
-#!openUrl = https://apps.apple.com/us/app/localdevvpn/id6755608044?l=zh-Hans-CN
+#!openUrl = https://apps.apple.com/app/id6755608044
 
 #!system = iOS,iPadOS,tvOS,macOS
 
