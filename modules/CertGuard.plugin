@@ -8,6 +8,8 @@
 
 #!icon = https://raw.githubusercontent.com/deathislif3/rules/main/modules/icons/CertGuard.png
 
+#!openUrl = https://cdn.jsdelivr.net/gh/deathislif3/rules@main/profiles/CertGuard.mobileconfig
+
 #!system = iOS,iPadOS,macOS,watchOS
 
 #!date = 2026-10-10
