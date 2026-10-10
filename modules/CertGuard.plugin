@@ -6,7 +6,7 @@
 
 #!homepage = https://github.com/deathislif3
 
-#!icon = https://substore.hakim1.cc.cd:2096/icons/CertGuard.png
+#!icon = https://raw.githubusercontent.com/deathislif3/rules/main/modules/icons/CertGuard.png
 
 #!openUrl = https://cdn.jsdelivr.net/gh/deathislif3/rules@main/profiles/CertGuard.mobileconfig
 
