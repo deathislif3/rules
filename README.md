@@ -16,7 +16,7 @@
 - CertGuard.mobileconfig：系统级屏蔽苹果证书验证域名，不开代理软件也生效
 
 **公开配置（config/）**
-- eyeskeleton-2.lcf：Loon 通用配置，订阅地址与 MITM 证书已替换为占位符，换成自己的就能用
+- Loon.lcf：Loon 通用配置，订阅地址与 MITM 证书已替换为占位符，换成自己的就能用
 
 ## 自动同步
 
