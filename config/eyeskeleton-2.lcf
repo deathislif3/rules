@@ -1,0 +1,154 @@
+#eyeskeleton
+
+[General]
+mitm-on-wifi-access = false
+real-ip = *.msftncsi.com,*.msftconnecttest.com,*.srv.nintendo.net,*.stun.playstation.net,xbox.*.microsoft.com,*.xboxlive.com,*.battlenet.com.cn,*.battlenet.com,*.blzstatic.cn,*.battle.net,*.turn.twilio.com,*.stun.twilio.com,stun.syncthing.net,stun.*,127.*.*.*.sslip.io,127-*-*-*.sslip.io,*.127.*.*.*.sslip.io,*-127-*-*-*.sslip.io,127.*.*.*.nip.io,127-*-*-*.nip.io,*.127.*.*.*.nip.io,*-127-*-*-*.nip.io
+ip-mode = v4-only
+ipv6-vif = off
+doh3-server = h3://dns.alidns.com/dns-query,https://9999.alidns.com/dns-query
+doq-server = quic://dns.alidns.com
+doh-server = https://dns.alidns.com/dns-query,https://doh.pub/dns-query
+dns-server = 223.5.5.5,119.29.29.29
+sni-sniffing = true
+disable-stun = true
+dns-reject-mode = LoopbackIP
+domain-reject-mode = DNS
+udp-fallback-mode = REJECT
+wifi-access-http-port = 7222
+wifi-access-socks5-port = 7221
+allow-wifi-access = false
+interface-mode = auto
+test-timeout = 10
+disconnect-on-policy-change = false
+internet-test-url = http://captive.apple.com/hotspot-detect.html
+proxy-test-url = http://www.gstatic.com/generate_204
+geoip-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+ipasn-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb
+skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+
+[Proxy]
+
+[Remote Proxy]
+AWS = https://example.com/替换为你的自建订阅链接,udp=true,block-quic=true,fast-open=default,vmess-aead=default,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Amazon.png
+MTF = https://example.com/替换为你的MTF订阅链接,udp=true,block-quic=true,fast-open=default,vmess-aead=default,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bamboo.png
+
+[Remote Filter]
+全球节点 = NameRegex, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
+美国节点 = NameRegex, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|USA|United States)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+日本节点 = NameRegex, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|JPN|Japan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+韩国节点 = NameRegex, FilterKey = "^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+新国节点 = NameRegex, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|SGP|Singapore)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+香港节点 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+台湾节点 = NameRegex, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+
+[Proxy Group]
+PROXY = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+AI = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+Apple = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/App_Store.png
+Discord = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
+Games = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
+Github = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
+Google = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+Instagram = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png
+Netflix = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+Spotify = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+Telegram = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png
+TikTok = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_2.png
+Twitter = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+YouTube = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+BiliBili = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
+DouYin = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
+NetEaseMusic = select,DIRECT,MTF,AWS,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
+MANUAL = select,全球节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
+# --------------------------------
+United States = url-test,美国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+Japan = url-test,日本节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+Korea = url-test,韩国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
+Singapore = url-test,新国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+Hong Kong = url-test,香港节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+Taiwan = url-test,台湾节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+
+[Rule]
+IP-CIDR,95.161.76.100/31,REJECT-NO-DROP,no-resolve
+FINAL,PROXY
+
+[Remote Rule]
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule/Loon/HuYa/HuYa.list, policy=DIRECT, tag=HuYaFix, enabled=true
+https://raw.githubusercontent.com/deathislif3/rules/refs/heads/main/rule-set/loon/adrules.list, policy=REJECT, tag=AD, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/ai.list, policy=AI, tag=AI, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/apple-cn.list, policy=DIRECT, tag=AppleCN, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/apple-proxy.list, policy=Apple, tag=AppleProxy, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule/Loon/Discord/Discord.list, policy=Discord, tag=Discord, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/games-cn.list, policy=DIRECT, tag=GamesCN, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/games.list, policy=Games, tag=Games, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule/Loon/GitHub/GitHub.list, policy=Github, tag=GitHub, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/google.list, policy=Google, tag=Google, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule/Loon/Instagram/Instagram.list, policy=Instagram, tag=Instagram, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/netflix.list, policy=Netflix, tag=Netflix, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/spotify.list, policy=Spotify, tag=Spotify, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule/Loon/Telegram/Telegram.list, policy=Telegram, tag=Telegram, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/tiktok.list, policy=TikTok, tag=TikTok, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule/Loon/Twitter/Twitter.list, policy=Twitter, tag=Twitter, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/youtube.list, policy=YouTube, tag=YouTube, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/bilibili.list, policy=BiliBili, tag=BiliBili, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/douyin.list, policy=DouYin, tag=DouYin, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule/Loon/NetEaseMusic/NetEaseMusic.list, policy=NetEaseMusic, tag=NetEaseMusic, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/cn.list, policy=DIRECT, tag=CN, enabled=true
+https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/cncidr.list, policy=DIRECT, tag=CNCIDR, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/tld-proxy.list, policy=PROXY, tag=TLD-PROXY, enabled=true
+https://github.com/deathislif3/rules/raw/refs/heads/main/rule-set/loon/proxy.list, policy=PROXY, tag=PROXY, enabled=true
+
+[Host]
+
+[Rewrite]
+request if ${url} ~= /^http:\/\/[^\/]+\/amdc\/mobileDispatch/i && ${request.header['user-agent']} ~= /AMapiPhone|%E9%97%B2%E9%B1%BC/i then reject_dict(200)
+
+[Script]
+
+[Plugin]
+https://github.com/Duncan588/LoonFakeNitro/releases/latest/download/Discord.Translate.plugin, enabled=true
+https://rucu6.pages.dev/Plugins/youtube_gholts.lpx, tag=YouTube去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx, enabled=true
+https://raw.githubusercontent.com/Tartarus2014/Loon-Script/refs/heads/master/Plugin/Block/hgdj.lpx, tag=红果短剧去广告, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/PhoenixVideo.png, enabled=true
+https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weidian_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/miHoYoBBS_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx, enabled=true
+https://github.com/Biliverse/Enhanced/releases/latest/download/Biliverse.Enhanced.plugin, enabled=true
+https://github.com/Biliverse/Global/releases/latest/download/BiliBili.Global.plugin, enabled=true
+https://github.com/Biliverse/Redirect/releases/latest/download/BiliBili.Redirect.plugin, enabled=false
+https://github.com/Biliverse/ADBlock/releases/latest/download/BiliBili.ADBlock.plugin, enabled=true
+https://github.com/NSRingo/WeatherKit/releases/latest/download/iRingo.WeatherKit.lpx, enabled=true
+https://github.com/NSRingo/MapKit/releases/download/v4.7.0-beta1/iRingo.MapKit.plugin, enabled=true
+https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Reddit_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, pin=true, enabled=true
+https://github.com/VirgilClyne/GetSomeFries/raw/main/plugin/DNS.plugin, tag=DNS 分流器, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Prevent_DNS_Leaks.png, pin=true, enabled=true
+https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.beta.loon.plugin, policy=PROXY, pin=true, enabled=true
+https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Loon.plugin, policy=Github, pin=true, enabled=false
+https://raw.githubusercontent.com/deathislif3/rules/main/modules/LocalDeviceLoopback.lpx, pin=true, enabled=true
+https://raw.githubusercontent.com/deathislif3/rules/main/modules/CertGuard.plugin, pin=true, enabled=true
+https://raw.githubusercontent.com/MaYIHEI/paperclip/refs/heads/main/loon/ipquality/ipquality.lpx, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Node_detection_tool.png, pin=true, enabled=true
+https://raw.githubusercontent.com/xepes0/wloc/refs/heads/main/modules/wloc.lpx, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/AppStore.png, pin=true, enabled=true
+
+[Mitm]
+ca-p12 = （已删除：导入后在 Loon 里生成你自己的 MITM 证书）
+ca-passphrase = （已删除）
+hostname =
+skip-server-cert-verify = true
