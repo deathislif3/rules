@@ -4,19 +4,11 @@
 
 ## 内容
 
-**规则镜像**
-- [`rule/Loon/`](https://github.com/deathislif3/rules/tree/main/rule/Loon)、[`rule/Surge/`](https://github.com/deathislif3/rules/tree/main/rule/Surge)：同步自 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
-- [`rule-set/`](https://github.com/deathislif3/rules/tree/main/rule-set)：loon、surge、egern 三份，同步自 [QuixoticHeart/rule-set](https://github.com/QuixoticHeart/rule-set)
-
-**插件（modules/）**
-- [CertGuard](https://raw.githubusercontent.com/deathislif3/rules/main/modules/CertGuard.plugin)：屏蔽苹果证书吊销验证域名，防 P12 侧载应用掉签
-- [LocalDevVPN](https://raw.githubusercontent.com/deathislif3/rules/main/modules/LocalDeviceLoopback.lpx)：为本机开发工具提供 10.7.0.1 回环
-
-**描述文件（profiles/）**
-- [CertGuard.mobileconfig](https://cdn.jsdelivr.net/gh/deathislif3/rules@main/profiles/CertGuard.mobileconfig)：系统级屏蔽苹果证书验证域名，不开代理软件也生效
-
-**自用配置（config/）**
-- [Loon.lcf](https://raw.githubusercontent.com/deathislif3/rules/main/config/Loon.lcf)：本人的自用配置，敏感信息已剔除，仅作留存
+- [`rule/`](https://github.com/deathislif3/rules/tree/main/rule)：规则镜像
+- [`rule-set/`](https://github.com/deathislif3/rules/tree/main/rule-set)：规则集镜像
+- [`modules/`](https://github.com/deathislif3/rules/tree/main/modules)：插件
+- [`profiles/`](https://github.com/deathislif3/rules/tree/main/profiles)：描述文件
+- [`config/`](https://github.com/deathislif3/rules/tree/main/config)：自用配置
 
 ## 自动同步
 
