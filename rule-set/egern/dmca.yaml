@@ -72,7 +72,6 @@ domain_set:
 - pirate.t-1.org
 - proaudiotorrents.org
 - public.demonoid.ch
-- pybittrack.retiolus.net
 - rekcart.duckdns.org
 - retracker.ip.ncnet.ru
 - retracker.lanta.me
@@ -126,7 +125,6 @@ domain_set:
 - tracker.expli.top
 - tracker.fansub.id
 - tracker.fatkhoala.org
-- tracker.flatuslifir.is
 - tracker.frozen-layer.com
 - tracker.gcrenwp.top
 - tracker.gcrreen.xyz
@@ -174,12 +172,12 @@ domain_set:
 - tracker.torrust-demo.com
 - tracker.trancetraffic.com
 - tracker.tritan.gg
-- tracker.tryhackx.org
 - tracker.uraniumhexafluori.de
 - tracker.vraphim.com
 - tracker.xfapi.top
 - tracker.xiaoduola.xyz
 - tracker.yemekyedim.com
+- tracker.zhuqiy.com
 - tracker.zond.org
 - tracker.zupix.online
 - tracker1.ctix.cn
@@ -407,6 +405,7 @@ domain_suffix_set:
 - dxdhd.com
 - eastgame.org
 - eddie4.nl
+- edgev.duckdns.org
 - edu.uifr.ru
 - eliastre100.fr
 - elitezones.ro
@@ -487,7 +486,6 @@ domain_suffix_set:
 - hitpt.org
 - hk1.opentracker.ga
 - home.penza.com.ru
-- ht.therarbg.to
 - hub.bugout.link
 - hudbt.hust.edu.cn
 - ianon.app
@@ -674,6 +672,7 @@ domain_suffix_set:
 - pubt.in
 - pubt.net
 - pussytorrents.org
+- pybittrack.retiolus.net
 - qbittorrent.org
 - qg.lorzl.gq
 - qingwa.pro
@@ -804,9 +803,9 @@ domain_suffix_set:
 - totheglory.im
 - tp.m-team.cc.php
 - tr.abiir.top
+- tr.abir.ga
 - tr.back.re
 - tr.bangumi.moe
-- tr.btube3.com
 - tr.burnabyhighstar.com
 - tr.cili001.com
 - tr.fuuko.net
@@ -864,6 +863,7 @@ domain_suffix_set:
 - tracker.btsync.gq
 - tracker.btsync.tk
 - tracker.btzoo.eu
+- tracker.bug38.com
 - tracker.bz
 - tracker.calculate.ru
 - tracker.ccc.de
@@ -905,6 +905,7 @@ domain_suffix_set:
 - tracker.filetracker.pl
 - tracker.fixr.pro
 - tracker.flashtorrents.org
+- tracker.flatuslifir.is
 - tracker.fnix.net
 - tracker.foreverpirates.co
 - tracker.fortu.io
@@ -969,6 +970,7 @@ domain_suffix_set:
 - tracker.nyap2p.com
 - tracker.ohys.net
 - tracker.oitool.com
+- tracker.okade.pro
 - tracker.ololosh.space
 - tracker.open-internet.nl
 - tracker.open-tracker.org
@@ -1036,6 +1038,7 @@ domain_suffix_set:
 - tracker.trackerlist.org
 - tracker.trackton.ga
 - tracker.tricitytorrents.com
+- tracker.tryhackx.org
 - tracker.tvunderground.org.ru
 - tracker.uw0.xyz
 - tracker.v6speed.org
@@ -1061,7 +1064,6 @@ domain_suffix_set:
 - tracker.yume-hatsuyuki.moe
 - tracker.zemoj.com
 - tracker.zerobytes.xyz
-- tracker.zhuqiy.com
 - tracker.zhuqiy.dgj055.icu
 - tracker.zooki.xyz
 - tracker.zum.bi
@@ -1382,6 +1384,7 @@ ip_cidr_set:
 - 93.92.64.5/32
 - 94.228.192.98/32
 - 94.23.183.33/32
+- 94.23.207.177/32
 - 95.107.48.115/32
 - 95.211.168.204/32
 - 95.211.37.230/32
