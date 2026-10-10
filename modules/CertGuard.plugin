@@ -1,11 +1,22 @@
 #!name = CertGuard
-#!desc = 屏蔽苹果证书吊销验证，防掉签
+
+#!desc = 屏蔽苹果证书吊销与验证服务器（OCSP、CRL、App Attest 等）的连接，防止通过 P12 证书侧载的应用因证书被吊销而掉签失效。启用的域名会被直接拒绝，与证书验证无关的正常网络请求不受影响。建议搭配防吊销 DNS 使用，效果更完整。
+
 #!author = deathislif3
+
 #!homepage = https://github.com/deathislif3
+
 #!icon = https://raw.githubusercontent.com/deathislif3/rules/main/modules/icons/CertGuard.png
-#!openUrl = https://github.com/dns-khoindvn/oci-auto-vm/releases/download/DNS/khoindvn.mobileconfig
-#!date = 2026-07-19
+
 #!system = iOS,iPadOS,macOS,watchOS
+
+#!date = 2026-10-10
+
+#!tag = 证书验证、防掉签
+
+#!type = normal
+
+# 使用方法：启用本插件即可。被屏蔽的均为苹果证书验证相关域名，不影响正常上网。
 
 [Rule]
 DOMAIN,ocsp.apple.com,REJECT
