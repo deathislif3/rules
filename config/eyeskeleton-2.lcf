@@ -43,29 +43,29 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 台湾节点 = NameRegex, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
 
 [Proxy Group]
-PROXY = select,DIRECT,MANUAL,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
-AI = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
-Apple = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/App_Store.png
-Discord = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
-Games = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
-Github = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
-Google = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
-Instagram = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png
-Netflix = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
-Spotify = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
-Telegram = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png
-TikTok = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_2.png
-Twitter = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
-YouTube = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-BiliBili = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
-DouYin = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
-NetEaseMusic = select,DIRECT,PROXY,United States,Japan,Singapore,Korea,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
+PROXY = select,DIRECT,MANUAL,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
+AI = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png
+Apple = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/App_Store.png
+Discord = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Discord.png
+Games = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
+Github = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub.png
+Google = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+Instagram = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Instagram.png
+Netflix = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
+Spotify = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+Telegram = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram_X.png
+TikTok = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_2.png
+Twitter = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+YouTube = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+BiliBili = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
+DouYin = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
+HuYa = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AbemaTV.png
+NetEaseMusic = select,DIRECT,PROXY,United States,Japan,Korea,Singapore,Hong Kong,Taiwan,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png
 MANUAL = select,全球节点,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
-# --------------------------------
 United States = url-test,美国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 Japan = url-test,日本节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-Singapore = url-test,新国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 Korea = url-test,韩国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
+Singapore = url-test,新国节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 Hong Kong = url-test,香港节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
 Taiwan = url-test,台湾节点,interval = 60,tolerance = 50,img-url = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
 
