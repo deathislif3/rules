@@ -1,6 +1,6 @@
 #!name = CertGuard
 
-#!desc = 屏蔽苹果证书吊销与验证服务器（OCSP、CRL、App Attest 等）的连接，防止通过 P12 证书侧载的应用因证书被吊销而掉签失效。启用的域名会被直接拒绝，与证书验证无关的正常网络请求不受影响。建议搭配防吊销 DNS 使用，效果更完整。
+#!desc = 屏蔽苹果证书吊销与验证服务器（OCSP、CRL、App Attest 等）的连接，防止通过 P12 证书侧载的应用因证书被吊销而掉签失效。启用的域名会被直接拒绝，与证书验证无关的正常网络请求不受影响。建议搭配防吊销描述文件使用，系统级全天候兜底。
 
 #!author = deathislif3
 
@@ -26,4 +26,3 @@ DOMAIN,crl.apple.com,REJECT
 DOMAIN,certs.apple.com,REJECT
 DOMAIN,appattest.apple.com,REJECT
 DOMAIN,vpp.itunes.apple.com,REJECT
-DOMAIN,crl.entrust.net,REJECT
